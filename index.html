@@ -1,0 +1,51 @@
+<!doctype html>
+
+
+<head><title>Test</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<img src="/static/logo1.png" alt="header" width="50" height="50"><br><br>
+
+<form action="/submit" method="POST">
+    <label for="fname">First name: </label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name: </label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="pattern_name">Pattern name: </label><br>
+    <input type="text" id="pattern_name" name="pattern_name"><br><br>
+    
+    <label for="Qtt">Choose your quantity:</label>
+    <select name="Qtt" id="Qtt">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <br><br>
+    <label for="note">note: </label><br>
+    <input type="text" id="note" name="note"><br><br>
+
+    <label>Are you a beginner sewer?</label><br><br>
+
+
+        <input type="radio" id="yes" name="option" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="option" value="no">
+        <label for="no">No</label><br>
+
+    <br><br>
+        <button><a>Send</a></button><br>
+</form>
+<br>
+<img src="/static/logo with social.png" alt="phoenix" width="30" height="50">
+<br>
+<a href="https://www.etsy.com/shop/BeeLaBoo">Link to my Etsy shop</a>
+<br>
+<a href="https://www.facebook.com/beelaboohandmade/">Update my new designs</a>
+<br>
+</div>
+</body>
